@@ -1,4 +1,4 @@
-public class Cat extends Mammal {
+public class Cat extends Mammal { //Indirect superclass
     private String breed;
 
     public Cat(String name, int age, String furType, String breed) {
@@ -15,10 +15,10 @@ public class Cat extends Mammal {
     }
 
     @Override
-    public void speak() {
+    public void speak() { // override
         System.out.println("Cat "+ name + " is speaking to its owner");
     }
-    public void speak(String name1){
+    public void speak(String name1){ // overload
         // TO DO
     }
 

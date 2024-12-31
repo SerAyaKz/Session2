@@ -1,7 +1,7 @@
-public class Animal {
+public class Animal { // cosmic superclass
     protected String name;
 
-    public Animal(String name) {
+    public Animal(String name) { // superclass constructor
         this.name = name;
     }
 
